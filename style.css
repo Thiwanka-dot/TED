@@ -119,8 +119,8 @@ nav .navi .nav-content{
     z-index: 1;
     min-width: 160px;
     text-align: center;
-    right: -11%;
-    transform: translateX(11%);
+    right: -20%;
+    transform: translateX(9%);
 }
 
 .navi:hover .nav-content{
@@ -556,6 +556,10 @@ ul li{
     nav .webNav .navi .nav-content a{
         padding: 12px 16px;
         font-size: 14px;
+    }
+
+    nav .navi .nav-content{
+        transform: translateX(10%);
     }
 }
 
